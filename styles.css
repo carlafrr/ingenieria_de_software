@@ -1,0 +1,88 @@
+/*selectores
+-etiquetas-> nombre de la etiqueta
+ID-> #nombreID
+Clases->#.nombreClase
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body{
+
+    background: rgb(255, 224, 229);
+     font-family: "Fjalla One", sans-serif;
+}
+
+h1,h2 {
+
+    text-align: center;
+  
+}
+
+img{
+
+     display: block;
+     margin: auto;
+     border-radius: 50%;
+     width: 200;
+     height: 215px;
+     object-fit: cover;
+     transition: all 0.5s ease;
+   
+
+
+}
+
+img:hover{
+
+     transform: scale(1.1);
+
+}
+
+p{
+
+    text-align: center;
+    background: rgb(255, 188, 199);
+    margin: auto;
+    width: 70%;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(233, 0, 101);
+
+
+}
+
+p:hover{
+
+     background: white;
+
+}
+
+h3,h2{
+      
+    width: 80%;
+    margin: auto;
+    background:rgb(255, 120, 197);
+    padding:20px;
+    margin-top:30px ;
+
+}
+
+ul, ol{
+
+    width: 80%;
+    margin:auto;
+    padding:20px;
+}
+
+a{
+
+    background: rgb(255, 120, 197);;
+    color:rgb(233, 0, 101);
+    padding:20px;
+    display: block;
+    margin:40px auto;
+
+
+}
