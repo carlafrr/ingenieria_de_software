@@ -83,6 +83,73 @@ a{
     padding:20px;
     display: block;
     margin:40px auto;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
 
+
+}
+
+#maps{
+
+    margin: 40px auto;
+    width: 100%;
+    height: 450px;
+    
+}
+
+#maps iframe{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#formContainer{
+
+    width: 100%;
+    background: pink;
+    padding: 50px 0;
+    margin: 40px auto;
+
+}
+
+#formContainer form{
+
+    width: 80%;
+    margin: auto;
+
+
+
+}
+
+#formContainer label{
+
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    
+
+
+}
+
+#formContainer input, #formContainer textarea{
+
+    display: block;
+    border: 2px solid rgb(255, 0, 166);
+    border-radius: 8px;
+    height: 25px;
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#formContainer textarea{
+
+    height: 100px;
 
 }
