@@ -104,3 +104,22 @@ a{
 
 
 }
+
+#formContainer input[type="submit"] {
+  width: auto;
+  height: auto;                 
+  padding: 20px 40px;           
+  font-size: 24px;
+  background: rgb(255, 120, 197);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto; 
+            
+}
+
+#formContainer input[type="submit"]:hover {
+  background-color: rgb(233, 0, 101);}
+
