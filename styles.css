@@ -42,7 +42,7 @@ img:hover{
 p{
 
     text-align: center;
-    background: rgb(255, 188, 199);
+    background: rgb(254, 150, 209);
     margin: auto;
     width: 70%;
     font-size: 18px;
@@ -59,27 +59,40 @@ p:hover{
 
 }
 
-h3,h2{
+h3{
       
+    color: rgb(233, 0, 101);
     width: 80%;
     margin: auto;
-    background:rgb(255, 120, 197);
+    background:rgb(254, 150, 209);
     padding:20px;
     margin-top:30px ;
+    
 
 }
 
-ul, ol{
+ul{
 
     width: 80%;
     margin:auto;
     padding:20px;
+
+}
+
+ol{
+
+    background: rgb(254, 150, 209);
+    width: 80%;
+    margin:auto;
+    padding:20px;
+
+
 }
 
 a{
 
-    background: rgb(255, 120, 197);;
-    color:rgb(233, 0, 101);
+    background: rgb(255, 120, 197);
+    color:white;
     padding:20px;
     display: block;
     margin:40px auto;
@@ -151,5 +164,31 @@ a{
 #formContainer textarea{
 
     height: 100px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80px;
+
+
 
 }
+
+#formContainer input[type="submit"] {
+  width: auto;
+  height: auto;                 
+  padding: 20px 40px;           
+  font-size: 24px;
+  background: rgb(255, 120, 197);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto; 
+            
+}
+
+#formContainer input[type="submit"]:hover {
+  background-color: rgb(233, 0, 101);}
+
+
